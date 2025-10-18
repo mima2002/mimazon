@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+   
+    background-color: blue;
+    
+}
+header {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background-color: white;
+    height: 500px;
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    
+}
+.name-input-group {
+    padding-bottom: 10px;
+}
+.input-group{
+    margin-bottom: 10px;
+    align-content: center;
+   
+}
+.input1 {
+    width: 43%;
+    height: 20px;
+    border-radius: 10px;
+    border: rgb(243, 241, 241) solid 1.5px;
+    padding: 8px 10px;
+}
+.input2 {
+    width: 93%;
+    height: 20px;
+    border: 10px;
+    padding: 8px 10px;
+    border: rgb(243, 241, 241) solid 1.5px;
+     border-radius: 10px;
+}
+.signup-button {
+    padding: 15px 165px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(7, 185, 7);
+    margin-top: 10px;
+}
+
+.terms {
+    font-size: 15px;
+   
+}
+
+.terms span{
+    font-size: 15px;
+    color:dodgerblue;
+}
